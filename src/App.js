@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import './App.scss';
+import Introduction from './components/Introduction/Introduction';
+import AboutMe from './components/AboutMe/AboutMe';
+import Education from './components/Education/Education';
 
-class App extends Component {
+export default class App extends Component {
   render() {
-    return <main className="app">start here</main>;
+    return (
+      <main className="app">
+        <Introduction />
+        <AboutMe />
+        <Education />
+      </main>
+    );
   }
 }
-
-export default App;
