@@ -9,6 +9,7 @@ export default class App extends Component {
     return (
       <main className="app">
         <Introduction />
+        <hr />
         <AboutMe />
         <Education />
       </main>
