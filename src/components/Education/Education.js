@@ -1,4 +1,5 @@
 import React from 'react';
+import './Education.scss';
 
 class Education extends React.Component {
   render() {
@@ -7,7 +8,9 @@ class Education extends React.Component {
         <h3>EDUCATION</h3>
         <ul>
           <li>
-            <p className="year">1990</p>
+            <p className="year">
+              <strong>1990</strong>
+            </p>
             <section>
               <p>
                 <strong>I was born in Katowice</strong>
@@ -21,7 +24,9 @@ class Education extends React.Component {
           </li>
 
           <li>
-            <p className="year">2005</p>
+            <p className="year">
+              <strong>2005</strong>
+            </p>
             <section>
               <p>
                 <strong>Secondary school specializing in artistic</strong>
@@ -34,7 +39,9 @@ class Education extends React.Component {
           </li>
 
           <li>
-            <p className="year">2009</p>
+            <p className="year">
+              <strong>2009</strong>
+            </p>
             <section>
               <p>
                 <strong>First level graduation in Graphic Design</strong>
@@ -48,7 +55,9 @@ class Education extends React.Component {
           </li>
 
           <li>
-            <p className="year">2012</p>
+            <p className="year">
+              <strong>2012</strong>
+            </p>
             <section>
               <p>
                 <strong>Secondary level graduation in Graphic Design</strong>
